@@ -29,7 +29,7 @@
 
 ## 🚀 Live Demo
 
-[Visit thinkBoard](https://your-demo-link.com) <!-- Replace with actual demo link -->
+[Visit thinkBoard](https://thinkboard-eqev.onrender.com) <!-- Replace with actual demo link -->
 
 ## 📸 Screenshots
 
