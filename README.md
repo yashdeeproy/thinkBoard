@@ -304,7 +304,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help with setup, please:
 
-1. Check the [Issues](https://github.com/yourusername/thinkBoard/issues) page
+1. Check the [Issues](https://github.com/yashdeeproy/thinkBoard/issues) page
 2. Create a new issue if your problem isn't already listed
 3. Provide detailed information about your setup and the issue
 
