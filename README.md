@@ -1,15 +1,19 @@
 # 🧠 thinkBoard - Your Personal Notes App
 
 <div align="center">
-  <img src="frontend/public/favicon.svg" alt="thinkBoard Logo" width="100" height="100">
   
-  A modern, responsive notes application built with React and Node.js
+  ![thinkBoard Logo](https://img.shields.io/badge/🧠-thinkBoard-green?style=for-the-badge&labelColor=2F3349&color=22c55e)
+  
+  **A modern, responsive notes application built with React and Node.js**
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
   [![React](https://img.shields.io/badge/React-18+-blue.svg)](https://react.dev/)
   [![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green.svg)](https://www.mongodb.com/)
   [![Express.js](https://img.shields.io/badge/Express.js-4.18+-orange.svg)](https://expressjs.com/)
+  
+  ---
+  
 </div>
 
 ## ✨ Features
@@ -30,9 +34,23 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="assets/homepage.png" alt="Homepage" width="400">
-  <img src="assets/create-note.png" alt="Create Note" width="400">
-  <img src="assets/note-detail.png" alt="Note Detail" width="400">
+
+### 🏠 Homepage - Notes Overview
+![Homepage](assets/homepage.png)
+*Clean, card-based layout displaying all your notes with consistent sizing and hover effects*
+
+### ✏️ Create New Note
+![Create Note](assets/createNotepage.png)
+*Intuitive note creation interface with real-time character counting and validation*
+
+### 📝 Edit Note
+![Edit Note](assets/editnotepage.png)
+*Seamless editing experience with pre-populated content and instant feedback*
+
+### 🗑️ Delete Confirmation
+![Delete Note](assets/deletenotepage.png)
+*User-friendly confirmation dialog to prevent accidental deletions*
+
 </div>
 
 ## 🛠️ Tech Stack
@@ -184,6 +202,11 @@ thinkBoard/
 │   │   └── index.html      # HTML template
 │   ├── package.json
 │   └── vite.config.js      # Vite configuration
+├── assets/                 # Screenshots and images
+│   ├── homepage.png
+│   ├── createNotepage.png
+│   ├── editnotepage.png
+│   └── deletenotepage.png
 ├── .gitignore
 └── README.md
 ```
@@ -288,6 +311,6 @@ If you have any questions or need help with setup, please:
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/yourusername">Yashdeep Roy</a></p>
   <p>⭐ Star this repository if you found it helpful!</p>
 </div> 

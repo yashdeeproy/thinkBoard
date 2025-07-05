@@ -68,12 +68,12 @@ const NoteCard = ({ note, onNoteDeleted }) => {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative h-80">
         <Link
           to={`/note/${note._id}`}
-          className="card bg-base-100 shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer group block"
+          className="card bg-base-100 shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 cursor-pointer group block h-full"
         >
-          <div className="card-body p-6">
+          <div className="card-body p-6 h-full flex flex-col">
             {/* Action Buttons */}
             <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               <button
@@ -92,15 +92,18 @@ const NoteCard = ({ note, onNoteDeleted }) => {
               </button>
             </div>
 
-            <h3 className="card-title text-lg font-bold text-base-content mb-3 line-clamp-2 group-hover:text-primary transition-colors pr-20">
+            {/* Title - Fixed height */}
+            <h3 className="card-title text-lg font-bold text-base-content mb-3 line-clamp-2 group-hover:text-primary transition-colors pr-20 h-14 flex items-start">
               {note.title || "Untitled Note"}
             </h3>
 
-            <div className="text-base-content/70 text-sm mb-4 line-clamp-4">
+            {/* Content - Flexible height */}
+            <div className="text-base-content/70 text-sm mb-4 line-clamp-4 flex-1">
               {truncateText(note.content || "No content available")}
             </div>
 
-            <div className="flex flex-col gap-2 pt-4 border-t border-base-300">
+            {/* Date info - Fixed at bottom */}
+            <div className="flex flex-col gap-2 pt-4 border-t border-base-300 mt-auto">
               <div className="flex items-center gap-2 text-xs text-base-content/60">
                 <Calendar className="w-4 h-4" />
                 <span>{formatDate(note.createdAt || note.dateCreated)}</span>
