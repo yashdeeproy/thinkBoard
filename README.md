@@ -311,6 +311,6 @@ If you have any questions or need help with setup, please:
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/yourusername">Yashdeep Roy</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/yashdeeproy">Yashdeep Roy</a></p>
   <p>⭐ Star this repository if you found it helpful!</p>
 </div> 
