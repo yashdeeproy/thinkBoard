@@ -75,7 +75,7 @@ const NoteCard = ({ note, onNoteDeleted }) => {
         >
           <div className="card-body p-6 h-full flex flex-col">
             {/* Action Buttons */}
-            <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="absolute top-4 right-4 flex gap-2 transition-opacity duration-200">
               <button
                 onClick={handleEdit}
                 className="btn btn-sm btn-ghost btn-circle bg-base-200/80 hover:bg-primary hover:text-white transition-all duration-200"
